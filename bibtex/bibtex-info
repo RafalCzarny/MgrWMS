@@ -1,0 +1,25 @@
+%=====================================================================%
+%                             bibtex-info
+%                         --------------------
+%  Date       : 2011/09/06 v1.06
+%  University : AKADEMIA GORNICZO-HUTNICZA W KRAKOWIE
+%               WYDZIAL MATEMATYKI STOSOWANEJ
+%  Author     : Rafa\l{} Czarny
+%  Copyright  : (c) 2008-2011 by Rafa\l{} Czarny
+%  E-mail     : rafal_czarny@tlen.pl
+%---------------------------------------------------------------------%
+
+
+Plik 'Szablon.bib' zawiera szablony z rekordami BibTeXa do wykorzystania we w³asnej bazie bibliografii.
+Przygotowany zosta³ z pomoc¹ Daniela Delimaty oraz poni¿szych Ÿróde³:
+   - Oren Patashnik, BIBTEXing, February 8, 1988
+     [@] http://www.ctan.org/get/biblio/bibtex/contrib/doc/btxdoc.pdf
+   - [@] http://pl.wikipedia.org/wiki/BibTeX
+   - [@] http://en.wikipedia.org/wiki/BibTeX
+
+Styl BiBTeX-a 'ddabbrv.bst' zosta³ opracowany przez Daniela Delimatê. W zamyœle ma byæ bardziej zgodny z polsk¹ norm¹ PN-ISO 690:2002 (,,Przypisy bibliograficzne — Zawartoœæ, forma i struktura'', wydane przez Polski Komitet Normalizacyjny w czerwcu 2002).
+
+
+%=====================================================================%
+% Rafal CZARNY
+% (c) 2008-2011

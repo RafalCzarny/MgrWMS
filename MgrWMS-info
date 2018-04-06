@@ -1,0 +1,68 @@
+%=====================================================================%
+%                              MgrWMS-info
+%                         --------------------
+%  Date       : 2011/09/06 v1.06
+%  University : AKADEMIA GORNICZO-HUTNICZA W KRAKOWIE
+%               WYDZIAL MATEMATYKI STOSOWANEJ
+%  Author     : Rafa\l{} Czarny
+%  Copyright  : (c) 2008-2011 by Rafa\l{} Czarny
+%  E-mail     : rafal_czarny@tlen.pl
+%---------------------------------------------------------------------%
+
+
+Projekt 'MgrWMS' to klasa systemu LaTeX dla prac magisterskich, przygotowana dla studentów Wydzia³u Matematyki Stosowanej Akademii Górniczo-Hutniczej w Krakowie.
+
+Szczegó³y dotycz¹ce instalacji i wymagañ klasy znajduj¹ siê w dokumentacji u¿ytkownika './doc/mgrwms/UserGuide.pdf' na str. 17.
+
+Aktualna wersja klasy powinna byæ zawsze dostêpna pod jednym z nastêpuj¹cych adresów:
+	http://code.google.com/p/mgrwms/  (g³ówna strona projektu)
+	http://www.czarny.biz/mgrwms/
+
+Bardzo proszê o przesy³anie ewentualnych problemów zwi¹zanych z klas¹ MgrWMS na adres:  rafal_czarny@tlen.pl
+
+
+ Spis plików jakie wchodz¹ w sk³ad pe³nego archiwum
+ --------------------------------------------------
+
+ - ./bibtex/
+   -- bibtex-info : informacja dotycz¹ca plików z katalogu './bibtex',
+   -- Szablon.bib : szablon dla rekordów bazy BiBTeX-a,
+   -- ddabbrv.bst : alternatywny styl BiBTeX-a przygotowany przez Daniela Delimatê.
+ 
+ - ./doc/mgrwms/
+   -- UserGuide.pdf : podrêcznik u¿ytkownika klasy MgrWMS.
+
+ - ./latex/mgrwms/
+   -- mgrwms.cls : plik klasy
+ - ./latex/mgrwms/mgrwmsgr/ : pliki ze znakami graficznymi AGH i WMS
+   -- logoAGH.eps
+   -- logoAGH.pdf
+   -- logoWMS.eps
+   -- logoWMS.png
+ 
+ - ./przyklad/
+   -- przyklad-info : informacja dotycz¹ca przyk³adu,
+   -- Przyklad.pdf : przyk³ad skompilowany pdfLaTeX-em przy u¿yciu klasy 'mgrwms',
+   -- Przyklad.tex : plik Ÿród³owy dla tego przyk³adu.
+ 
+ - ./szablon/
+   -- Szablon.tex : szablon do pisania prac magisterskich (dla 'cp1250' oraz 'iso8859-2')
+	 -- Szablon-utf8.tex : szablon do pisania prac magisterskich dla kodowanie Unicode UTF-8
+ 
+ - ./MgrWMS-info : ten plik,
+ - ./ReadMe : ogólny plik informacyjny w jêz. angielskim,
+ - ./ChangeLog : lista zmian dla kolejnych wersji.
+
+
+ Licencje
+ --------
+
+Ten projekt mo¿e byæ rozpowszechniany i/lub modyfikowany na zasadach opisanych w licencji ,,LaTeX Project Public License'', pocz¹wszy od wersji 1.3. Jej treœæ (w jêz. angielskim) jest dostêpna pod adresem:
+   http://www.latex-project.org/lppl.txt
+
+Wszelkie prawa autorskie do znaków graficznych umiejscowionych w katalogu './latex/mgrwms/mgrwmsgr/' s¹ zastrze¿one przez Akademiê Górniczo-Hutnicz¹ oraz Wydzia³ Matematyki Stosowanej.
+
+
+%=====================================================================%
+% Rafal CZARNY
+% (c) 2008-2011

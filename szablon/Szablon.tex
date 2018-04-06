@@ -1,0 +1,231 @@
+%& --translate-file=cp1250pl
+%%====================================================================%%
+%%                AKADEMIA GÓRNICZO-HUTNICZA W KRAKOWIE
+%%                    WYDZIA£ MATEMATYKI STOSOWANEJ
+%%                          PRACA MAGISTERSKA
+%%
+%%       Autor : ----
+%% Specjalnoœæ : ----
+%%   Nr albumu : ----
+%%    Promotor : ----
+%%  Data (wer) : DD.MM.YYYY ...
+%%
+%%--------------------------------------------------------------------%%
+%%
+%%
+%% ---------------
+%%   PLIK G£ÓWNY
+%% ---------------
+%%
+\documentclass[woman|man,mfi|min|mpt|mok|mub|mza|miz|bsp]{mgrwms}
+%%
+%  Wartoœci dla opcji --translate-file :
+%  - cp1250pl : Windows East European
+%  - il2-pl   : iso8859-2 (ISO Latin 2)
+%
+%  Obowi¹zkowe opcje klasy:
+%  - woman|man : wersja odpowiednio dla Pañ i Panów,
+%  - mfi|min|mpt|mok|mub|mza|miz|bsp : specjalnoœci wed³ug skrótów:
+%      * mfi :  Matematyka finansowa
+%      * min :  Matematyka w informatyce
+%      * mpt :  Matematyka w naukach technicznych i przyrodniczych
+%      * mok :  Matematyka obliczeniowa i komputerowa
+%      * mub :  Matematyka ubezpieczeniowa
+%      * mza :  Matematyka w zarz¹dzaniu
+%      * miz :  Matematyka w informatyce i zarz¹dzaniu
+%      * bsp :  Bez specjalnoœci
+%  (opis pozosta³ych opcji znajduje siê w dokumentacji 'UserGuide.pdf')
+%%
+%% ------- PAKIETY ------- %%
+%%
+% \usepackage[cp1250]{inputenc}  % lub z opcj¹ 'latin2' dla kodowania iso8859-2
+% \usepackage{amsmath}           % ³atwiejszy sk³ad matematyki
+% \usepackage{amssymb}
+% \usepackage{setspace}          % zmiana interlinii (np. 1,5 wiersza odstêpu)
+% \usepackage{makeidx}           % odkomentowaæ, jeœli do³¹czony jest indeks
+%
+%  <... pozostale pakiety wedle uznania ...>
+%
+\usepackage{polski}         % pakiet polonizacyjny
+% \usepackage[T1]{fontenc}  % lub z opcj¹ 'QX', wymagane dla pakietu 'lmodern'
+% \usepackage{lmodern}      % zalecane czcionki LModern
+%%
+%  Dodatkowe polecenia które trzeba umieœciæ w preambule:
+%
+% \makeindex  % jeœli do³¹czony jest indeks (nieobowi¹zkowy)
+% \includeonly{...,...,...,...}  % dla warunkowej kompilacji
+%%
+%% BiBTeX (opcjonalnie)
+% \bibliographystyle{ddabbrv}  % lub np. plabbrv, plalpha, plplain ...
+% \nocite{*}
+%%
+%%
+\begin{document}
+%%
+%%
+%% ---------------
+%%   NASZE MAKRA
+%% ---------------
+%%
+%  Miejsce na nasze makra. Innym sposobem mo¿e byæ
+%  umieszczenie ich w osobnym pliku i wczytanie poleceniem \input{----}
+%%
+%%
+%% ---------------------------------
+%%   METRYCZKA PRACY i SPIS TREŒCI
+%% ---------------------------------
+%%
+\title{----}
+\author{----}
+\promotor{----}
+\nralbumu{----}
+\slowakluczowe{Xxx, Yyy, Zzz}
+\keywords{Xxx, Yyy, Zzz}
+%%
+\maketitle
+%%
+%%
+\tableofcontents
+%%
+%%
+%% ----------------------
+%%   STRESZCZENIA PRACY
+%% ----------------------
+%%
+%% ------- POLSKIE ------- %%
+%%
+\begin{streszczenie}
+%%
+%
+%  <Treœæ streszczenia po polsku>
+%
+%%
+\end{streszczenie}
+%%
+%% ------- ANGIELSKIE ------- %%
+%%
+\begin{abstract}
+%%
+%
+%  <Treœæ streszczenia po angielsku>
+%
+%%
+\end{abstract}
+%%
+%% ------- PODZIÊKOWANIA ------- %%
+%%
+%  <Jeœli zachodzi taka potrzeba, mo¿na dodaæ tutaj tekst podziêkowania,
+%   dedykacji itp.>
+% \newpage
+% \thispagestyle{empty}
+%  <Treœæ podziêkowania z odpowiednim formatowaniem>
+%%
+%%
+%% ----------------------
+%%   G£ÓWNY TEKST PRACY
+%% ----------------------
+%%
+%% ------- WSTÊP ------- %%
+%%
+\begin{wstep}  % ew. np. \begin{wstep}[Wprowadzenie]
+%%
+%
+%  <Treœæ wstêpu>
+%
+%%
+\end{wstep}
+%%
+%% ------- ROZDZIA£ 1 ------- %%
+%%
+\chapter{----}
+%%
+%
+%  <Treœæ rozdzia³u 1, mo¿e byæ umieszczona w innym pliku
+%   i ³adowana przez \input{----} lub \includeonly{...,...}>
+%
+%%
+%
+%  <... kolejne rozdzia³y ...>
+%
+%%
+%% ------- ROZDZIA£ $n$ ------- %%
+%%
+\chapter{----}
+%%
+%
+%  <Treœæ rozdzia³u $n$, mo¿e byæ umieszczona w innym pliku
+%   i ³adowana przez \input{----} lub \includeonly{...,...}>
+%
+%%
+%% ------- ZAKOÑCZENIE ------- %%
+%%
+% \begin{zakonczenie}  % ew. np. \begin{zakonczenie}[Podsumowanie]
+%%
+%
+%  <Treœæ zakoñczenia, podsumowania (jeœli jest taka potrzeba umieszczenia)>
+%
+%%
+% \end{zakonczenie}
+%%
+%%
+%% -----------------------
+%%   ROZDZIA£Y DODATKOWE
+%% -----------------------
+%%
+% \appendix
+%%
+%% ------- DODATEK A ------- %%
+%%
+% \chapter{----}
+%%
+%
+%  <Treœæ dodatku A, mo¿e byæ umieszczona w innym pliku
+%   i ³adowana przez \input{----} lub \includeonly{...,...}>
+%
+%%
+%%
+%% ----------------
+%%   BIBLIOGRAFIA
+%% ----------------
+%%
+%  (Mo¿emy u¿yæ œrodowiska 'thebibliography' lub te¿ bazy BiBTeX)
+%%
+%% BiBTeX (opcjonalnie)
+% \bibliography{<pliki bib>}
+%%
+\begin{thebibliography}{88}  % ew. np. '8' jeœli liczba pozycji < 10
+%%
+%
+% Treœæ bibliografii, wpisy typu:
+% \bibitem{<Klucz do cytowañ>} ...
+% \bibitem{<Klucz do cytowañ>} ...
+%
+%%
+\end{thebibliography}
+%%
+%%
+%% ----------------------------
+%%   DODATKOWE ELEMENTY PRACY
+%% ----------------------------
+%%
+%  Tutaj umieœcimy dodatkowe (niebowi¹zkowe) czeœci pracy:
+%  - Spis skrótów, symboli i oznaczeñ (jako \chapter*{...})
+%  - Spis ilustracji (\listoffigures)
+%  - Spis tablic (\listoftables)
+%  - Skorowidz (nieobowi¹zkowy, umieszczenie u³atwia lekturê pracy)
+%
+% \chapter*{Spis symboli i oznaczeñ}  % ew. podobny tytu³
+%  
+%   <Tabela ze spisem symboli, oznaczeñ itp.>
+%
+% \listoffigures
+%
+% \listoftables
+%
+% \printindex  % je¿eli do pracy do³¹czony jest indeks
+%%
+%%
+\end{document}
+%%
+%% [Wersja dla: 2011/09/06 v1.06]
+%%====================================================================%%

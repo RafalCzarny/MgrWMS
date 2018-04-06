@@ -1,0 +1,51 @@
+%=====================================================================%
+%                              ChangeLog
+%                         --------------------
+%  Date       : 2011/09/06 v1.06
+%  University : AKADEMIA GORNICZO-HUTNICZA W KRAKOWIE
+%               WYDZIAL MATEMATYKI STOSOWANEJ
+%  Author     : Rafa\l{} Czarny
+%  Copyright  : (c) 2008-2011 by Rafa\l{} Czarny
+%  E-mail     : rafal_czarny@tlen.pl
+%---------------------------------------------------------------------%
+
+
+*** 2011/09/06 v1.06 ***
+
+ - Zmiany w opcjach generuj¹cych nazwê specjalnoœci kierunku 'Matematyka',
+ - Poprawiona kompatybilnoœæ z pakietem 'listings' w zakresie podpisów kodów oraz dodanie opcji 'wmsoldcaption',
+ - Zmiany i poprawki w dokumentacji u¿ytkownika, m.in. wzmianka o poleceniu '\secondarysize', poprawione odnoœniki,
+ - Dodanie szablonu pracy dla kodowania UTF-8 ('Szablon-utf8.tex').
+
+
+*** 2010/01/03 v1.05 ***
+
+ - Zmiana plików z logiem Wydzia³u Matematyki Stosowanej na wersjê z 2009 roku (pliki 'logoWMS.eps' i 'logoWMS.png').
+
+
+*** 2009/09/28 v1.04 ***
+
+ - Dodanie cz³onu 'wms' do nazw poleceñ \sectsetup, \titlesetup, \figuresetup, \tablesetup analogicznie do zmienionego wczeœniej polecenia \captionsetup (inspirowane zmian¹ w mwcls 0.74),
+ - Znacznie poprawione generowanie prawid³owych zak³adek w pdf-ach poprzez pakiet 'hyperref' (równie¿ wed³ug zmian w mwcls),
+ - Poprawione drobne b³êdy w dokumentacji u¿ytkownika, m.in. poprawny opis opcji 'floatssmall' i 'floatsnormalsize'.
+
+
+*** 2009/05/11 v1.03 ***
+
+ - Zapewnienie kompatybilnoœci klasy z pakietami 'caption*' (oraz 'subfig').
+
+
+*** 2009/01/27 v1.02 ***
+
+ - Dodanie opcjonalnego ³adowania ,,zgubionego'' pakietu 'makeidx' w pliku 'Szablon.tex',
+ - Poprawione dzia³anie polecenia \caption, które akceptuje teraz prze³amania linii,
+ - Drobne zmiany w dokumentacji u¿ytkownika, m.in. dodanie opisu styli stron.
+
+
+*** 2009/01/10 v1.00 ***
+ - Zupe³nie nowa wersja klasy 'MgrWMS'!
+
+
+%=====================================================================%
+% Rafal CZARNY
+% (c) 2008-2011

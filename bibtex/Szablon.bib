@@ -1,0 +1,289 @@
+%%====================================================================%%
+%%                AKADEMIA GÓRNICZO-HUTNICZA W KRAKOWIE
+%%                    WYDZIA£ MATEMATYKI STOSOWANEJ
+%%                  PRACA MAGISTERSKA - BIBLIOGRAFIA
+%%
+%%       Autor : ----
+%% Specjalnoœæ : ----
+%%   Nr albumu : ----
+%%    Promotor : ----
+%%  Data (wer) : DD.MM.YYYY ...
+%%
+%%--------------------------------------------------------------------%%
+%%
+%%
+%% -----------------------------
+%%   BIBLIOGRAFIA dla BiBTeX-a
+%% -----------------------------
+%%
+%
+% Szablon z rekordami BibTeXa do wykorzystania we w³asnej bazie bibliografii.
+% Przygotowanie: Daniel Delimata, Rafa³ Czarny na podstawie:
+%   - Oren Patashnik, BIBTEXing, February 8, 1988
+%     [@] http://www.ctan.org/get/biblio/bibtex/contrib/doc/btxdoc.pdf
+%   - [@] http://pl.wikipedia.org/wiki/BibTeX
+%   - [@] http://en.wikipedia.org/wiki/BibTeX
+%  
+%%
+%%
+%% -------------
+%%   PRZYK£ADY
+%% -------------
+%%
+%
+@STRING{wnt="Wydawnictwa Naukowo-Techniczne"}
+@STRING{agh="Uczelniane Wydawnictwa Naukowo-Dydaktyczne AGH"}
+@STRING{kr="Kraków"}
+%
+@ARTICLE{vvam,
+  AUTHOR =       "Vsevolod Vladimirov and Adam Mahdi al Dhayeh",
+  TITLE =        "Normal forms application for studying solitary wave solutions of non-integrable evolution systems",
+  JOURNAL =      "Communications in Nonlinear Science and Numerical Simulation",
+  YEAR =         "2004",
+  volume =       "9",
+  pages =        "615–631",
+  month =        "December",
+  note =         "Issue 6"
+}
+%
+@BOOK{bozek,
+  AUTHOR =    "Bogus³aw Bo¿ek",
+  TITLE =     "Metody obliczeniowe i ich komputerowa realizacja",
+  PUBLISHER = agh,
+  YEAR =      "2005",
+  address =   kr,
+  edition =   "1"
+	isbn =      "83-89388-44-8"
+}
+%
+@BOOK{jank,
+  AUTHOR =    "Maksymilian Dryja and Janina Jankowska and Micha³ Jankowski",
+  TITLE =     "Przegl¹d metod i algorytmów numerycznych",
+  PUBLISHER = wnt,
+  YEAR =      "1982",
+  address =   "Warszawa"
+}
+%
+%%
+%%
+%% -----------
+%%   SZABLON
+%% -----------
+%%
+%
+% U¿ycie sk³adni @STRING pozwala zast¹piæ czêsto u¿ywane wyra¿enia (nazwê miasta, wydawnictwa itp.)
+% 
+% @STRING{my="<...>"}
+%
+% W poni¿szych szablonach DU¯E litery oznaczaj¹ pola wymagane, zaœ ma³e litery s¹ dla pól opcjonalnych,
+% zamiast par cudzys³owów " ", wartoœci pól mog¹ byæ zamkniête w nawiasy { }.
+%
+%%
+%% ------- SZABLONY REKORDÓW ------- %%
+%%
+%
+% Artyku³, praca publikowana w czasopiœmie
+@ARTICLE{#,
+  AUTHOR =       "#",
+  TITLE =        "#",
+  JOURNAL =      "#",
+  YEAR =         "#",
+  volume =       "#",
+  number =       "#",
+  pages =        "#",
+  month =        "#",
+  note =         "#",
+	key =          "#"	
+}
+%
+% Ksi¹¿ka (zwarte wydawnictwo) z okreœlonym wydawc¹
+% - pole 'author' mo¿e byæ zast¹pione przez 'editor'
+@BOOK{#,
+  AUTHOR =       "#",
+  TITLE =        "#",
+  PUBLISHER =    "#",
+  YEAR =         "#",
+  editor =       "#",	
+  volume =       "#",
+  number =       "#",
+  series =       "#",
+  address =      "#",
+  edition =      "#",
+  month =        "#",
+  note =         "#",
+	pages =        "#",
+  isbn =         "#",
+	key =          "#"	
+}
+%
+% Artyku³ lub praca z materia³ów konferencyjnych
+% - mo¿na u¿yæ zamiennie rekordu:  @CONFERENCE 
+@INPROCEEDINGS{#,
+  AUTHOR =       "#",
+  TITLE =        "#",
+  BOOKTITLE =    "#",
+  YEAR =         "#",
+  editor =       "#",
+  volume =       "#",
+  number =       "#",
+  series =       "#",
+  pages =        "#",
+  address =      "#",
+  month =        "#",
+  organization = "#",
+  publisher =    "#",
+  note =         "#",
+	key =          "#"	
+}
+%
+% Praca oprawiona i drukowana, nie zawieraj¹ca informacji o wydawcy
+@BOOKLET{#,
+  TITLE =        "#",
+  author =       "#",
+  howpublished = "#",
+  address =      "#",
+  month =        "#",
+  year =         "#",
+  note =         "#",
+	key =          "#"	
+}
+%
+% Fragmenty ksi¹¿ki (rozdzia³y, wybrane czêœci lub strony)
+% - pole 'author' mo¿e byæ zast¹pione przez 'editor',
+% - 'chapter' mo¿na zast¹piæ przez 'pages'
+@INBOOK{#,
+  AUTHOR =       "#",
+  TITLE =        "#",
+  CHAPTER =      "#",
+  pages =        "#",
+  PUBLISHER =    "#",
+  YEAR =         "#",
+  editor =       "#",
+  volume =       "#",
+  number =       "#",
+  series =       "#",
+  type =         "#",
+  address =      "#",
+  edition =      "#",
+  month =        "#",
+  note =         "#",
+	key =          "#"	
+}
+%
+% Rozdzia³ ksi¹¿ki lub czêœæ opatrzona w³asnym tytu³em (np. ró¿ne rozdzia³y od ró¿nych autorów)
+@INCOLLECTION{#,
+  AUTHOR =       "#",
+  TITLE =        "#",
+  BOOKTITLE =    "#",
+  PUBLISHER =    "#",
+  YEAR =         "#",
+  editor =       "#",
+  volume =       "#",
+  number =       "#",
+  series =       "#",
+  type =         "#",
+  chapter =      "#",
+  pages =        "#",
+  address =      "#",
+  edition =      "#",
+  month =        "#",
+  note =         "#",
+	key =          "#"	
+}
+%
+% Dokumentacja techniczna
+@MANUAL{#,
+  TITLE =        "#",
+	author =       "#",
+	organization = "#",
+  address =      "#",
+  edition =      "#",
+  month =        "#",
+	year =         "#",
+  note =         "#",
+  key =          "#"
+}
+%
+% Praca magisterska
+@MASTERTHESIS{#,
+  AUTHOR =       "#",
+  TITLE =        "#",
+  SCHOOL =       "#",
+  YEAR =         "#",
+  type =         "#",
+  address =      "#",
+  month =        "#",
+  note =         "#",
+  key =          "#"
+}
+%
+% Praca doktorska
+@PHDTHESIS{#,
+  AUTHOR =       "#",
+  TITLE =        "#",
+  SCHOOL =       "#",
+  YEAR =         "#",
+  type =         "#",
+  address =      "#",
+  month =        "#",
+  note =         "#",
+  key =          "#"
+}
+%
+% Raport uczelni lub innej instytucji, zwykle wchodz¹cy w sk³ad numerowanej serii. 
+@TECHREPORT{#,
+  AUTHOR =       "#",
+  TITLE =        "#",
+  INSTITUTION =  "#",
+  YEAR =         "#",
+  type =         "#",
+  number =       "#",
+  address =      "#",
+  month =        "#",
+  note =         "#",
+  key =          "#"
+}
+%
+% Materia³y konferencyjne jako ca³oœæ, w odró¿nieniu od pojedynczych prac
+@PROCEEDINGS{#,
+  TITLE =        "#",
+  YEAR =         "#",
+  editor =       "#",
+  volume =       "#",
+  number =       "#",
+  series =       "#",
+  address =      "#",
+  month =        "#",
+	organization = "#",
+	publisher =    "#",
+  note =         "#",
+  isbn =         "#",
+	key =          "#"
+}
+%
+% Dokument z autorem i tytu³em, ale formalnie nie wydane 
+% - pod tym rekordem mo¿na umieœciæ np. materia³y z Internetu
+@UNPUBLISHED{#,
+  AUTHOR =       "#",
+  TITLE =        "#",
+  NOTE =         "#",
+  month =        "#",
+  year =         "#",
+	key =          "#"
+}
+%
+% Publikacje nie mieszcz¹ce siê w obrêbie innych kategorii
+% - równie¿ nadaje siê dla materia³ów internetowych itp.
+@MISC{#,
+  author =       "#",
+  title =        "#",
+  howpublished = "#",
+  month =        "#",
+  year =         "#",
+  note =         "#",
+	annote = 	     "#",
+	key =          "#"
+}
+%%
+%% [Wersja dla: 2011/09/06 v1.06]
+%%====================================================================%%
