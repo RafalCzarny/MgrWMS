@@ -1,14 +1,5 @@
-%=====================================================================%
-%                               ReadMe
-%                         --------------------
-%  Date       : 2011/09/06 v1.06
-%  University : AKADEMIA GORNICZO-HUTNICZA W KRAKOWIE
-%               WYDZIAL MATEMATYKI STOSOWANEJ
-%  Author     : Rafa\l{} Czarny
-%  Copyright  : (c) 2008-2011 by Rafa\l{} Czarny
-%  E-mail     : rafal_czarny@tlen.pl
-%---------------------------------------------------------------------%
-
+LaTeX project 'MgrWMS'
+----------------------
 
 This is the file 'ReadMe' for the project 'MgrWMS'.
 
@@ -19,8 +10,8 @@ All documentation is available in Polish only.
 Currently this project is not not maintained.
 
 
- This work consists of all files listed below:
- ---------------------------------------------
+ Project files
+ ---------------
 
  - ./bibtex/
    -- bibtex-info : info file for bibtex directory,
@@ -61,8 +52,3 @@ The latest version of this license is in
 and version 1.3 or later is part of all distributions of LaTeX version 2005/12/01 or later.
 
 All rights for the graphical signs (all files from the directory './latex/mgrwms/mgrwmsgr/') are reserved either by AGH University of Science and Technology in Krakow or by Faculty of Applied Mathematics (that is the part of this university).
-
-
-%=====================================================================%
-% Rafal CZARNY
-% (c) 2008-2011
